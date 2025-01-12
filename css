@@ -1,0 +1,73 @@
+/* Fundo espacial */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://source.unsplash.com/1600x900/?galaxy,stars') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container do chat */
+.chat-container {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-size: 24px;
+}
+
+#chat-box {
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border: 2px solid #444;
+  border-radius: 10px;
+  background: #222;
+  padding: 10px;
+  color: white;
+}
+
+#messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-container {
+  display: flex;
+}
+
+#user-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+#send-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#send-button:hover {
+  background-color: #45a049;
+}
